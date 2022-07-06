@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/css/bootstrap-slider.min.css" />
+     
+    <link rel="stylesheet" href="slider.css">
+
+</head>
+
+<body>
+    <div class="form-group">
+        <h2>Kérlek állitsd be mennyi a várható kiszállítási idő  </h2><br>
+
+        <input class="slider" id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="120"
+            data-slider-step="1" name="data-slider-value" data-slider-value="50" />
+            <a href="">perc.</a>
+            
+    </div>
+    <div id="showTime">Az aktuális kijelölt idő: <span class="show-amount"> 0 </span> perc</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/bootstrap-slider.min.js"></script>
+    <script src="slider.js"></script>
+
+</body>
+
+</html>
